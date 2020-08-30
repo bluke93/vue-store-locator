@@ -6,7 +6,7 @@
 # build image
 docker build --tag lbarone-passnfly-test:1.0 .
 
-# install dependencies
+# run image
 docker run -dp 3000:3000 lbarone-passnfly-test:1.0
 ```
 
