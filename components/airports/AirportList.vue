@@ -1,6 +1,5 @@
 <template>
   <div class="airport-list">
-    {{currentActive}}
     <template v-for="(airport, index) in orderedAirports">
       <Airport @airportClicked="selectedListItem" :airport="airport" :key="index" :class="{'active': currentActive == airport.id}" />
     </template>
