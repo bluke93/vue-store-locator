@@ -20,6 +20,7 @@
     "@turf/bbox": "^6.0.1",
     "@turf/center": "^6.0.1",
     "@turf/helpers": "^6.1.4",
+    "html-minifier": "^4.0.0",
     "mapbox-gl": "^1.12.0",
     "node-sass": "^4.14.1",
     "nuxt": "^2.14.0",
