@@ -5,7 +5,7 @@ WORKDIR /app
 ADD . /app/
 
 RUN rm yarn.lock
-RUN yarn
+RUN yarn install
 RUN yarn build
 
 ENV HOST 0.0.0.0
