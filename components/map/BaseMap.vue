@@ -39,7 +39,6 @@ import turfCenter from '@turf/center'
 import { point, featureCollection } from '@turf/helpers'
 import Mapbox from "mapbox-gl";
 import { MglMap, MglMarker } from "vue-mapbox";
-
 import VueTypes from 'vue-types'
 
 
@@ -184,6 +183,17 @@ export default {
 };
 </script>
 
-<style>
-@import 'mapbox-gl/dist/mapbox-gl.css';
+<style lang="scss">
+.ca-marker {
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background-color: $gray-900;
+  &.active {
+    width: 46px;
+    height: 46px;
+    background: $white;
+    border: 1px solid $white;
+  }
+}
 </style>

@@ -1,17 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68" height="68" viewBox="0 0 68 68">
-    <defs>
-        <filter id="prefix__a" width="217.5%" height="217.5%" x="-58.8%" y="-46.2%" filterUnits="objectBoundingBox">
-            <feOffset dy="5" in="SourceAlpha" result="shadowOffsetOuter1"/>
-            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7"/>
-            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
-        </filter>
-        <circle id="prefix__b" cx="20" cy="20" r="20"/>
-    </defs>
-    <g fill="none" fill-rule="evenodd" transform="translate(14 9)">
-        <use fill="#000" filter="url(#prefix__a)" xlink:href="#prefix__b"/>
-        <use fill="#FFF" xlink:href="#prefix__b"/>
-        <g fill="#3B3B3B" fill-rule="nonzero">
-            <path d="M17.85 15.506v1.616c0 .233-.093.457-.258.622-.165.164-.39.256-.622.256H1.03c-.233 0-.457-.092-.622-.256-.165-.165-.257-.389-.257-.622v-1.616c0-.152.123-.276.275-.276H1.6c.151 0 .274-.122.275-.273V8.574h-.099c-.304 0-.55-.247-.55-.551v-.716c-.002-.038.012-.075.039-.102.026-.027.062-.042.1-.042H5.48c.076 0 .138.062.138.138v.726c0 .304-.247.55-.551.55h-.1v6.38c.001.151.124.273.276.273h1.934c.151 0 .274-.122.274-.273V8.574h-.105c-.304 0-.551-.247-.551-.551v-.716c0-.076.06-.137.136-.138h4.127c.075 0 .136.062.136.138v.72c0 .304-.247.55-.551.55h-.1v6.38c0 .15.123.273.274.273h1.936c.152 0 .275-.122.276-.273V8.574h-.1c-.304 0-.55-.247-.55-.551v-.716c0-.077.061-.138.137-.138h4.118c.076 0 .137.062.138.138v.72c0 .304-.247.55-.551.55h-.1v6.38c.002.151.125.273.276.273h1.174c.073 0 .144.029.196.08.052.052.081.122.081.196zm-.304-11.282L9.246.06c-.155-.078-.337-.078-.492 0l-8.3 4.165c-.186.094-.303.283-.303.49v1.222c0 .152.124.274.275.274h17.148c.151 0 .274-.122.275-.274V4.72c.001-.21-.116-.4-.303-.495z" transform="translate(11 10)"/>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill-rule="evenodd" clip-rule="evenodd" style=""><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none"/><g class="currentLayer" style=""><title>Layer 1</title><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm-4.809 13.077l3.627-1.796-3.717-3.17 1.149-.569 6.017 2.031 2.874-1.423c.757-.38 2.009-.278 2.294.296.045.092.065.195.065.306-.002.586-.59 1.381-1.221 1.698l-2.874 1.423-2.031 6.016-1.15.569-.268-4.878-3.626 1.796-.749 1.802-.804.398-.281-2.724-1.996-1.874.804-.399 1.887.498z" id="svg_1" class="selected" fill="#b6b6b6" stroke="none" stroke-dasharray="none" stroke-width="1" fill-opacity="1"/></g></svg>

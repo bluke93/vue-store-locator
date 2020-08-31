@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">FLYST</a>
+      <a class="navbar-brand" href="#">AIRLIST</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -11,17 +11,26 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li> -->
         </ul>
-        <form class="form-inline my-2 my-md-0">
-          <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-        </form>
+        <Btn primary sized @click="handleAdd">
+          <i class="fa fa-plus" ></i> Add airport
+        </Btn>
       </div>
     </div>
   </nav>
 </template>
 
 <script>
+import Btn from '@/components/elements/Btn'
 export default {
   name: 'Navbar',
+  components: {
+    Btn
+  },
+  methods: {
+    handleAdd(event){
+      this.$store.commit('modal/SET_MODAL_ID', 'add-modal');
+    },
+  }
 }
 </script>
 

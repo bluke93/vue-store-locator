@@ -1,8 +1,7 @@
 <template>
   <aside class="sidebar">
     <div class="content">
-      <h5>Airports around you:</h5>
-      
+      <slot></slot>
     </div>
   </aside>
 </template>
@@ -23,8 +22,5 @@ export default {
     background: $gray-300;
     border-left: 1px solid $gray-400;
     box-shadow: $box-shadow-lg;
-    .content {
-      padding: 15px;
-    }
   }
 </style>

@@ -23,7 +23,8 @@ export default {
     ],
     link: [
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Lexend+Peta&family=Open+Sans:wght@400;700&display=swap' },
-      { rel: 'stylesheet', href: 'href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' },
+      { rel: 'stylesheet', href: 'https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' },
+      { rel: 'stylesheet', href: 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
     ]
   },
@@ -35,6 +36,10 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
+    { src: '~plugins/detect-IE.js' },
+    { src: '~plugins/detect-OS.js' },
+    { src: '~plugins/mq.js', mode: 'client' },
+    { src: '~plugins/window-ready.js', mode: 'client' },
   ],
   /*
   ** Auto import components
@@ -53,6 +58,12 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/style-resources',
+    'portal-vue/nuxt',
+    ['vue-scrollto/nuxt', {
+      container: 'body',
+      duration: 750,
+      easing: 'ease-out'
+    }]
   ],
   styleResources: {
     scss: [
