@@ -2,7 +2,7 @@
 
 (Mapbox study)
 
-Vue app using vuex and mapbox to handle a store locator app.
+Nuxtjs (vue) app using vuex and mapbox to handle a store locator app.
 In this case manages the list of airports and allows to navigate the map and the list with mapbox apis.
 
 
