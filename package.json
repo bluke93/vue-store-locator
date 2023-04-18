@@ -1,11 +1,11 @@
 {
-  "name": "airport-manager",
+  "name": "vue-store-locator",
   "version": "1.0.0",
   "author": "Luca Barone",
   "email": "baroneluca93@gmail.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bluke93/lbarone-passnfly-app.git"
+    "url": "https://github.com/bluke93/vue-store-locator.git"
   },
   "private": true,
   "scripts": {
